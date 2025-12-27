@@ -20,6 +20,7 @@ echo "<br>";
 
 echo "2. acceder a un objeto dentro del arreglo: ";
 echo "<br>";
+echo "<pre>";
 var_dump($cliente ["nombre"]); //accedemos directamente por el nombre de la propiedad
 echo "</pre>";
 echo "<br>";

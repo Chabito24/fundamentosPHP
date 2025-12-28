@@ -55,10 +55,10 @@ echo "<br>";
 echo "3. validar si una propiedad existe en un arreglo: ";
 echo "<br>";
 echo "valida si existe la propiedad 'nombre': ";
-var_dump(isset($cliente['nombre']) );
+var_dump(isset($cliente['nombre']));
 echo "<br>";
 echo "valida si existe la propiedad 'codigo': ";
-var_dump(isset($cliente['codigo']) );
+var_dump(isset($cliente['codigo']));
 
 
 

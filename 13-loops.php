@@ -59,7 +59,7 @@ echo "<br><br>";
 
 echo "Ejercicio: Repetir componentes de UI (estrellas, placeholders, filas) <br><br>";
 
-$rating = 2;
+$rating = 3;
 
 for ($i = 1; $i <= 5; $i++) {
     echo $i <= $rating ? "⭐" : "☆";
@@ -67,13 +67,12 @@ for ($i = 1; $i <= 5; $i++) {
 
 echo "<br><br>";
 
-echo "Ejercicio: Generar <option> de un select (años, cantidades, etc.)<br><br>"; //Ejemplo: años de 2000 a 2030:
+echo "Ejercicio: Generar option de un select (años, cantidades, etc.)<br><br>"; //Ejemplo: años de 2000 a 2030:
 
 for ($anio = 2000; $anio <= 2030; $anio++) {
     echo "<option value='$anio'>$anio</option>"; //En un <select>, cada <option> ya es “una fila” dentro del menú desplegable, así que el navegador ya las separa automáticamente. Por eso el <br> no aporta nada (y normalmente se ignora).
 }
 
 echo "<br><br>";
-
 
 include 'includes/footer.php';

@@ -78,7 +78,7 @@ echo "En lugar de usar muchos else if, lo mejor es usar un switch";
 echo "<br>";
 echo "Respuesta: ";
 
-$tecnologia = 'PHP'; //cambiar entre PHP, JavaScript, HTML, Python
+$tecnologia = 'Python'; //cambiar entre PHP, JavaScript, HTML, Python y otro para el default
 
 switch ($tecnologia) {
     case 'PHP':
@@ -88,7 +88,10 @@ switch ($tecnologia) {
         echo "Genial, el lenguaje de la web"; //valida e imprime si es igual a JavaScript
         break;
     case 'HTML':
-        echo 'Emmm...'; //valida e imprime si es igual a HTML
+        echo 'Emmm...HTML, No es un lenguaje de programación'; //valida e imprime si es igual a HTML
+        break;
+    case 'Python':
+        echo 'Lenguaje en proceso de aprendizaje, super.'; //valida e imprime si es igual a HTML
         break;
     default:
         echo "No se cual es ese lenguaje aun :("; //valida e imprime si NO es igual a nnguno de los anteriores o si es igual a python o alguno diferente.

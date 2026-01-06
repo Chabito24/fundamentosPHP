@@ -15,23 +15,22 @@ echo "<br><br>";
 echo "2. crear funcion en PHP con parametros y argumentos ";
 
 function sumar2(int|float $numero1 = 0, int|float $numero2 = 0) { //Creamos la funcion con parametros, int|float permite que el numero sea entero o float, le asignamos a cada numero un valor por defecto en este caso es 0, solo toma ese valor si en los parametros no asignamos ningun valor a alguno de los dos numeros
-    echo $numero1 + $numero2; // ejecutamos una suma
+echo $numero1 + $numero2; // ejecutamos una suma
 }
-echo "<br>";
-echo "2 + 2 = ";
+echo "<br> 2 + 2 = ";
 sumar2(2, 2); //llamamos la funcion con argumentos
-echo "<br>";
-echo "10 + 20 = ";
+
+echo "<br> 10 + 20 = ";
 sumar2(10, 20);
-echo "<br>";
-echo "5 + 2 = ";
+
+echo "<br> 5 + 2 = ";
 sumar2(5, 2);
-echo "<br>";
-echo "100 + 2.5 = ";
+
+echo "<br> 100 + 2.5 = ";
 sumar2(100, 2.5);
-echo "<br>";
-echo "1 = ";
-sumar2(1); //si se deja un solo numero en el argumento genera un error por ello en el argumento le damos un valor al numero1 y 2 en este caso, tambien debemos declarar se son enteros (int) por si se llega a sumar con un string nos detalle el tipo de datos que se estan sumando-
+
+echo "<br> 1 = ";
+sumar2(1); //si se deja un solo numero en el argumento genera un error por ello en el parametro le damos un valor al numero1 y 2 en este caso, tambien debemos declarar se son enteros (int) por si se llega a sumar con un string nos detalle el tipo de datos que se estan sumando-
 echo "<br><br>";
 
 

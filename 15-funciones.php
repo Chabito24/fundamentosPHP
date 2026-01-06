@@ -33,6 +33,15 @@ echo "<br> 1 = ";
 sumar2(1); //si se deja un solo numero en el argumento genera un error por ello en el parametro le damos un valor al numero1 y 2 en este caso, tambien debemos declarar se son enteros (int) por si se llega a sumar con un string nos detalle el tipo de datos que se estan sumando-
 echo "<br><br>";
 
+echo 'asignacion de nombres a parametros Named Parameter PHP: se asigna un nombre y un valor al parametro <br>';
+
+function restar(int|float $n1 = 0, int|float $n2 = 0) {
+    echo $n1 - $n2;
+}
+echo "<br> 20 - 10 = ";
+restar(n1: 20, n2: 10); // parametro nombrado, o es necesario e signo de dolar al inicio.
+
+
 
 
 echo "<br><br>";

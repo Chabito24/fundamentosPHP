@@ -16,7 +16,7 @@ echo "<br>";
 echo "<br>";
 
 echo "1. validación del arreglo: ";
-echo "valida si el qrreglo esta o no vacio ";
+echo "valida si el arreglo esta o no vacio ";
 echo "<br>";
 echo "Respuesta clientes: ";
 var_dump(empty($clientes));//cambia de false a true dependiendo el arreglo que se este validando
